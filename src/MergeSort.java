@@ -65,7 +65,7 @@ public class MergeSort {
 		int r = 0;
 		int n = 0;
 
-		/* Each block of left and right array are compared through recursively */
+		/* Each block of left and right array are compared through recursively and independently */
 		while (l < leftArray.length && r < rightArray.length) {
 			if (leftArray[l] < rightArray[r]) {
 				nums[n] = leftArray[l];
