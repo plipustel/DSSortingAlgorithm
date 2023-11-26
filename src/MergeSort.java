@@ -60,7 +60,6 @@ public class MergeSort {
 		mSort(leftArray); // call itself recursively
 		mSort(rightArray); // // call itself recursively
 
-		/* CONQUERY */
 		int l = 0;
 		int r = 0;
 		int n = 0;
